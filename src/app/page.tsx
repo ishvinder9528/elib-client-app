@@ -1,7 +1,10 @@
+import Banner from "@/components/Banner";
+
 export default function Home() {
   return (
-  <div>
-    Welcome to elib client app
-  </div>
+    <div>
+      <Banner />
+      <h1>Welcome to elib client app</h1>
+    </div>
   );
 }
